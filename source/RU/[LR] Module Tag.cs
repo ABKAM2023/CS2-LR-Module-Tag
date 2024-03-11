@@ -25,7 +25,7 @@ public class LevelsRanksModuleTag : BasePlugin
     private IPointsManager? _pointsManager;
     private Dictionary<int, string>? _tagsConfig;
 
-    public override void Load(bool hotReload)
+    public override void OnAllPluginsLoaded(bool hotReload)
     {
         base.Load(hotReload);
 
