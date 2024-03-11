@@ -11,6 +11,7 @@
 # Configuration file (settings_tags.yml)
 Each ID in the config is an ID from settings_ranks.yml.
 ```
+tags:
   0: '[S-I]'
   1: '[S-II]'
   2: '[S-III]'
