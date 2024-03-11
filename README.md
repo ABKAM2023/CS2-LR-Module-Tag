@@ -2,7 +2,7 @@
 **[C#] [LR] Module - Tag** is a module for the Levels Ranks plugin. This module assigns clan tags to players based on their rank.
 
 # Installation
-1. Install [C# Levels Ranks Core](https://www.sourcemm.net/downloads.php/?branch=master) and [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) (minimum version 188)
+1. Install [C# Levels Ranks Core](https://www.sourcemm.net/downloads.php/?branch=master)
 2. Download [C#] [LR] Module - Tag
 3. Unpack the archive and upload it to the game server
 4. Configure settings_tags.yml
