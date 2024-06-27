@@ -14,9 +14,13 @@ Each ID in the config is an ID from settings_ranks.json.
 {
   "LR_Tags": {
     "Tags": {
-      "access": "1",
+      "access": "1", // Allow players to disable Clan-Tag [ 0 - no, 1 - yes ]
+
+      // The number of ranks here should correspond to the number of ranks in ( addons\counterstrikesharp\configs\plugins\LevelsRanks\settings_ranks.json )
+      // All ranks here should be listed in ascending order, starting from 1 and ending with the number you have configured
+
       "1": {
-        "tag": "[Rank 1]"
+        "tag": "[Rank 1]" // Clan-Tag that will be displayed for a player with the first rank
       },
       "2": {
         "tag": "[Rank 2]"
@@ -99,9 +103,13 @@ Each ID in the config is an ID from settings_ranks.json.
 {
   "LR_Tags": {
     "Tags": {
-      "access": "1",
+      "access": "1", // Разрешить ли игрокам отключать Клан-Тег [ 0 - нет, 1 - да ]
+
+      // Количество рангов здесь должно соответствовать кол-ву рангов в ( addons\counterstrikesharp\configs\plugins\LevelsRanks\settings_ranks.json )
+      // Все ранги тут следует располагать в порядке возрастания, начиная от 1 и заканчивая тем количеством, которое вы настроили
+
       "1": {
-        "tag": "[Rank 1]"
+        "tag": "[Rank 1]" // Клан-Тег, который будет высвечиваться у игрока с самым первым званием
       },
       "2": {
         "tag": "[Rank 2]"
